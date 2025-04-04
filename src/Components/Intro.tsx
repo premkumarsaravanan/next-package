@@ -1,4 +1,3 @@
-"use client";
 import { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import AOS from "aos";
