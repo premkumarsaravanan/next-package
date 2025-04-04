@@ -15,10 +15,17 @@
         "build": "tsc"
     },
     "devDependencies": {
+        "@types/aos": "^3.0.7",
         "@types/react": "^19.1.0",
         "@types/react-dom": "^19.1.1",
         "react": "^19.1.0",
         "react-dom": "^19.1.0",
         "typescript": "^5.8.2"
+    },
+    "dependencies": {
+        "aos": "^2.3.4",
+        "bootstrap": "^5.3.4",
+        "next": "^15.2.4",
+        "react-bootstrap": "^2.10.9"
     }
 }
