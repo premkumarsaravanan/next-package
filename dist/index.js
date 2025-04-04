@@ -58,7 +58,6 @@ var Greeting_default = Greeting;
 var import_react = require("react");
 var import_react_bootstrap = require("react-bootstrap");
 var import_aos = __toESM(require("aos"));
-var import_aos2 = require("aos/dist/aos.css");
 var import_link = __toESM(require("next/link"));
 var import_jsx_runtime3 = require("react/jsx-runtime");
 var Intro = ({ data, customClass }) => {

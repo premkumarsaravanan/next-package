@@ -20,7 +20,6 @@ var Greeting_default = Greeting;
 import { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import AOS from "aos";
-import "aos/dist/aos.css";
 import Link from "next/link";
 import { jsx as jsx2, jsxs as jsxs2 } from "react/jsx-runtime";
 var Intro = ({ data, customClass }) => {
