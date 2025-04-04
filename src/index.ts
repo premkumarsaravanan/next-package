@@ -1,2 +1,2 @@
-export { default as HelloWorld } from './HelloWorld';
-export { default as Greeting } from './Greeting';
+export { default as HelloWorld } from './Components/HelloWorld';
+export { default as Greeting } from './Components/Greeting';
