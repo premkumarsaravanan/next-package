@@ -1,7 +1,7 @@
-import React from "react";
+import * as React from "react";
 
-const HelloWorld = () => {
-    return <h1>Hello World</h1>;
-}
+const HelloWorld: React.FC = () => {
+  return <h1>Hello World</h1>;
+};
 
-export default HelloWorld
+export default HelloWorld;

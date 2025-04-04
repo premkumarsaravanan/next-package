@@ -1,8 +1,16 @@
 {
-    "compilerOptions": { 
-    "jsx": "react-jsx", 
-    "moduleResolution": "node", 
-    "target": "esnext", 
-    "module": "esnext" 
+    "compilerOptions": {
+      "outDir": "dist",
+      "declaration": true,
+      "declarationDir": "dist/types",
+      "jsx": "react-jsx",
+      "moduleResolution": "node",
+      "target": "esnext",
+      "module": "esnext",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src", "index.ts"]
   }
-}
+  

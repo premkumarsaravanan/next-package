@@ -1,1 +1,1 @@
-export {default as HelloWorld } from "./src/HelloWorld";
+export { default as HelloWorld } from "./src/HelloWorld";

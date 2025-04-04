@@ -1,37 +1,38 @@
-{ 
-    "name": "@next/hello-world", 
-    "version": "1.0.0", 
-    "description": "A reusable Hello World component for Next.js", 
-    "main": "dist/index.js", 
-    "module": "dist/index.js", 
-    "types": "dist/index.d.ts", 
-    "files": [ "dist" ], 
-    "scripts": { 
-        "build": "tsc", 
-        "prepublishOnly": "npm run build" 
-    }, 
-    "dependencies": { 
-        "react": "^18.0.0", 
-        "react-dom": "^18.0.0" 
-    }, 
-    "devDependencies": { 
-        "typescript": "^5.0.0", 
-        "@types/react": "^18.0.0", 
-        "@types/react-dom": "^18.0.0" 
-    }, 
-    "repository": { 
-        "type": "git", 
-        "url": "https://github.com/premkumarsaravanan/next-package" 
-    }, 
-    "keywords": [ 
-        "nextjs", 
-        "component", 
-        "react", 
-        "hello-world" 
-    ], 
-    "author": "starberry", 
-    "license": "MIT", 
-    "publishConfig": { 
-        "access": "public" 
-    } 
-}
+{
+    "name": "@next/hello-world",
+    "version": "1.0.0",
+    "description": "A reusable Hello World component for Next.js",
+    "main": "dist/index.js",
+    "types": "dist/types/index.d.ts",
+    "files": ["dist"],
+    "scripts": {
+      "build": "tsc",
+      "clean": "rm -rf dist",
+      "prepublishOnly": "npm run clean && npm run build"
+    },
+    "peerDependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+      "typescript": "^5.0.0",
+      "@types/react": "^18.0.0",
+      "@types/react-dom": "^18.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/premkumarsaravanan/next-package"
+    },
+    "keywords": [
+      "nextjs",
+      "component",
+      "react",
+      "hello-world"
+    ],
+    "author": "starberry",
+    "license": "MIT",
+    "publishConfig": {
+      "access": "public"
+    }
+  }
+  
